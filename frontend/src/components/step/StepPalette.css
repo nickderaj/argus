@@ -1,0 +1,20 @@
+.step-palette {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+}
+
+.palette-label {
+  font-size: 0.75rem;
+  color: var(--ctp-overlay0);
+  margin-right: 4px;
+}
+
+.palette-tile {
+  touch-action: none;
+}
+
+.palette-tile.dragging {
+  opacity: 0.3;
+}

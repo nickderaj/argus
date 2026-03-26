@@ -1,0 +1,120 @@
+.feature-editor {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.editor-loading {
+  text-align: center;
+  padding: 40px;
+  color: var(--ctp-overlay0);
+}
+
+.editor-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.form-row label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--ctp-subtext0);
+}
+
+.input-field {
+  padding: 10px 14px;
+  background: var(--ctp-mantle);
+  color: var(--ctp-text);
+  border: 1px solid var(--ctp-surface0);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  outline: none;
+  font-family: inherit;
+  transition: border-color 0.15s;
+}
+
+.input-field:focus {
+  border-color: var(--ctp-mauve);
+}
+
+.input-field::placeholder {
+  color: var(--ctp-overlay0);
+}
+
+.textarea {
+  resize: vertical;
+}
+
+.scenarios-section h3 {
+  font-size: 1rem;
+  margin: 0 0 12px 0;
+  color: var(--ctp-text);
+}
+
+.btn-add-scenario {
+  padding: 10px 20px;
+  background: transparent;
+  color: var(--ctp-mauve);
+  border: 2px dashed var(--ctp-mauve);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  width: 100%;
+  transition: background 0.15s;
+}
+
+.btn-add-scenario:hover {
+  background: rgba(203, 166, 247, 0.08);
+}
+
+.editor-actions {
+  display: flex;
+  gap: 12px;
+}
+
+.btn-save {
+  padding: 10px 24px;
+  background: var(--ctp-green);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: opacity 0.15s;
+}
+
+.btn-save:hover {
+  opacity: 0.9;
+}
+
+.btn-save:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-export {
+  padding: 10px 24px;
+  background: var(--ctp-blue);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: opacity 0.15s;
+}
+
+.btn-export:hover {
+  opacity: 0.9;
+}

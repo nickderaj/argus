@@ -1,0 +1,26 @@
+.step-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px 12px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  min-width: 50px;
+  text-align: center;
+  user-select: none;
+}
+
+.step-chip-draggable {
+  cursor: grab;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.step-chip-draggable:hover {
+  transform: scale(1.05);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+.step-chip-draggable:active {
+  cursor: grabbing;
+}

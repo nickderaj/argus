@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 24px;
+  background: var(--ctp-crust);
+  color: var(--ctp-text);
+  border-bottom: 1px solid var(--ctp-surface0);
+}
+
+.header-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--ctp-mauve);
+}
+
+.header-subtitle {
+  font-size: 0.875rem;
+  color: var(--ctp-subtext0);
+}

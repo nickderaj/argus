@@ -1,0 +1,53 @@
+.scenario-panel {
+  background: var(--ctp-crust);
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid var(--ctp-surface0);
+  margin-bottom: 16px;
+}
+
+.scenario-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.scenario-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--ctp-subtext0);
+  white-space: nowrap;
+}
+
+.scenario-name-input {
+  flex: 1;
+  padding: 8px 12px;
+  background: var(--ctp-base);
+  color: var(--ctp-text);
+  border: 1px solid var(--ctp-surface1);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.scenario-name-input:focus {
+  border-color: var(--ctp-mauve);
+}
+
+.btn-delete-scenario {
+  background: none;
+  border: none;
+  color: var(--ctp-red);
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 0 8px;
+  line-height: 1;
+  opacity: 0.5;
+  transition: opacity 0.15s;
+}
+
+.btn-delete-scenario:hover {
+  opacity: 1;
+}
